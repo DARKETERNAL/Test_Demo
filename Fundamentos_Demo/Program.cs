@@ -212,6 +212,7 @@ namespace Fundamentos_Demo
 
         public int[,] ProductoMatrices(int[,] A, int[,] B)
         {
+            //Inicio la matriz en nll
             int[,] C = null;
 
             if (A.GetLength(1) == B.GetLength(0))
